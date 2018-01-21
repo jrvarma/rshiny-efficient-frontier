@@ -1,9 +1,5 @@
 This is a [R-Shiny](https://shiny.rstudio.com/) App for computing and plotting the Markowitz mean-variance efficient frontier. Most of the hard work is done by the [`fPortfolio`](https://cran.r-project.org/web/packages/fPortfolio/index.html) package which is part of [Rmetrics](https://www.rmetrics.org/).
 
-The motivation for the App is discussed in our [Working Paper](https://web.iima.ac.in/faculty-and-research/research-and-publication.html&rnpid=14565):
-
-**Jayanth R. Varma and Vineet Virmani (2017)** "Shiny alternative for Finance in the Classroom", Indian Institute of Management, Ahmedabad Working Paper No. 2017-03-05, March 2017
-
 The App consists of three `R` files:
 
 *  As in all Shiny Apps, `ui.R` is the user interface script handles the user experience:  it sets the page details (the way the app looks like), lists the input options and defines the output formats.
